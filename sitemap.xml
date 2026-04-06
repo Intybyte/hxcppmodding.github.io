@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2026-04-05</lastmod>
+        <lastmod>2026-04-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonetools/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetools/"/>
+    </url>
+    <url>
+        <loc>Nonetools/ai/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetools/ai/"/>
+    </url>
+    <url>
+        <loc>Nonetools/cheat-engine/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetools/cheat-engine/"/>
+    </url>
+    <url>
+        <loc>Nonetools/decompiler/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetools/decompiler/"/>
+    </url>
+    <url>
+        <loc>Nonetools/documentation/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetools/documentation/"/>
     </url>
 </urlset>
