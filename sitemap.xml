@@ -36,4 +36,40 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetools/documentation/"/>
     </url>
+    <url>
+        <loc>Nonetricks/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetricks/"/>
+    </url>
+    <url>
+        <loc>Nonetricks/blinkers/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetricks/blinkers/"/>
+    </url>
+    <url>
+        <loc>Nonetricks/bottom-up/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetricks/bottom-up/"/>
+    </url>
+    <url>
+        <loc>Nonetricks/locate-boot-all/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetricks/locate-boot-all/"/>
+    </url>
+    <url>
+        <loc>Nonetricks/proper-namespacing/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetricks/proper-namespacing/"/>
+    </url>
+    <url>
+        <loc>Nonetricks/string-constants/</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetricks/string-constants/"/>
+    </url>
 </urlset>
