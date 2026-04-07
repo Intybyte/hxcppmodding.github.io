@@ -212,7 +212,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../mod/expectations.md" class="md-tabs__link">
+        <a href="../../mod/launcher-loader.md" class="md-tabs__link">
           
   
   
@@ -872,6 +872,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../../mod/launcher-loader.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Launcher and Loader
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mod/enviroment-setup.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enviroment Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../mod/expectations.md" class="md-nav__link">
         
   
@@ -1135,7 +1191,15 @@
 
   <h1>Proper namespacing</h1>
 
-
+<p>Assign a meaningful namespace to each function, for instance if it is a haxe call you can use:</p>
+<p><code>hx::\&lt;package\&gt;::\&lt;class\&gt;::\&lt;method-name\&gt;</code></p>
+<p>If it is some library call you can use:</p>
+<p><code>\&lt;lib-name\&gt;::\&lt;package\&gt;::\&lt;class\&gt;::\&lt;method-name\&gt;</code></p>
+<p>Use a namespace regarding the game only if you are sure that said function is a custom one defined by the game, and as always
+try to "safely guess" what and where the method might be, you are going to hit some constructors so it is better to consider
+the OOP aspect while you are at it and not only name them stuff like <code>parseXmlFromLimeTextAsset</code>. It would make more sense to
+name it something like <code>tec2::ParsedXml::fromLimeText</code> for instance (you might want to add package namespacing if you see
+a lot of xml related stuff for instance, but that is very subjective for these cases).</p>
 
 
 
