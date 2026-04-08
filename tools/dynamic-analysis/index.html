@@ -12,13 +12,13 @@
         <meta name="author" content="Intybyte">
       
       
-        <link rel="canonical" href="https://intybyte.github.io/hxcppmodding.github.io/tools/cheat-engine/">
+        <link rel="canonical" href="https://intybyte.github.io/hxcppmodding.github.io/tools/dynamic-analysis/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../decompiler/">
       
       
-        <link rel="next" href="../decompiler/">
+        <link rel="next" href="../documentation/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Cheat Engine - Hxcpp Modding</title>
+        <title>Dynamic Analysis - Hxcpp Modding</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#small-introduction" class="md-skip">
+        <a href="#debuggers" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cheat Engine
+              Dynamic Analysis
             
           </span>
         </div>
@@ -219,11 +219,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../mod/launcher-loader.md" class="md-tabs__link">
+        <a href="../../mod/launcher-loader/" class="md-tabs__link">
           
   
   
-  Actual Modding
+  Modding
 
         </a>
       </li>
@@ -474,6 +474,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../decompiler/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Decompiler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -491,7 +519,7 @@
   <span class="md-ellipsis">
     
   
-    Cheat Engine
+    Dynamic Analysis
   
 
     
@@ -509,7 +537,7 @@
   <span class="md-ellipsis">
     
   
-    Cheat Engine
+    Dynamic Analysis
   
 
     
@@ -533,17 +561,57 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#small-introduction" class="md-nav__link">
+  <a href="#debuggers" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Small Introduction
+        Debuggers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Debuggers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windbg-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WinDbg Usage
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
+  <a href="#cheat-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cheat Engine
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cheat Engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#dyor" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -553,8 +621,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#other" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -564,39 +632,16 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
     </ul>
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../decompiler/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Decompiler
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -918,7 +963,7 @@
   <span class="md-ellipsis">
     
   
-    Actual Modding
+    Modding
   
 
     
@@ -934,7 +979,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Actual Modding
+    Modding
   
 
           </label>
@@ -947,7 +992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mod/launcher-loader.md" class="md-nav__link">
+      <a href="../../mod/launcher-loader/" class="md-nav__link">
         
   
   
@@ -955,34 +1000,6 @@
     
   
     Launcher and Loader
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../mod/enviroment-setup.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Enviroment Setup
   
 
     
@@ -1509,17 +1526,57 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#small-introduction" class="md-nav__link">
+  <a href="#debuggers" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Small Introduction
+        Debuggers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Debuggers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windbg-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WinDbg Usage
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
+  <a href="#cheat-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cheat Engine
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cheat Engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#dyor" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1529,8 +1586,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#other" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1538,6 +1595,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1561,11 +1623,29 @@
   
 
 
-  <h1>Cheat Engine</h1>
+  <h1>Dynamic Analysis</h1>
 
-<p>While I hate the fact that downloading this piece of software has you walk a landmine of
-adware softwares in the installation process, it is very useful and worth it.</p>
-<h3 id="small-introduction">Small Introduction</h3>
+<p>Not all values will be clear from decompiling the game, you might need to figure out some values by running the program and seeing the values stored in some pointers, or maybe you need more clarity on what exactly some vtable pointers point to.</p>
+<h2 id="debuggers">Debuggers</h2>
+<p>There are tools like WinDbg that allow you to launch the program in a suspended state, apply breakpoint and then run the programs, they are essential if you want to know what some startup functions do or when they are called.</p>
+<h3 id="windbg-usage">WinDbg Usage</h3>
+<p>Generally you are going to inspect the registers at a breakpoint, then use another program to better view the memory structure at said point, or if you need to inspect vtables, subtract that value to the base and use the decompiler to go there.</p>
+<p>The main commands you are going to use are:</p>
+<ul>
+<li>bp \&lt;module&gt; + \&lt;offset&gt; : Adds Breakpoints</li>
+<li>bl : Lists breakpoints</li>
+<li>r : Shows registers</li>
+<li>? \&lt;expression&gt; : Expression operator to do calculations, useful when you need to compute the relative offset of an address</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li>bp ApplicationMain+0xcafebabe</li>
+<li>? rip - ApplicationMain</li>
+</ul>
+<p>There are many more commands you can use, a good 5min search will give you most of the answers.</p>
+<h2 id="cheat-engine">Cheat Engine</h2>
+<p>A program that allows you track memory changes so that you can find values and pointers more easly that you can later link to your decompiler's output. While I hate the fact that downloading this piece of software has you walk a landmine of adware softwares in the installation process, it is very useful and worth it.</p>
+<h3 id="usage">Usage</h3>
 <p>Essentially Cheat Engine allows you to track memory values, and the included debugger help you to also keep track of what is writing/accessing a certian memory value.</p>
 <p>So for instance if you want to mod the HP for a game, like probably the tutorial of CE shows you,
 (not sure, did it a long ago, it is a pretty solid tutorial), you might want to debug based on
@@ -1613,7 +1693,7 @@ that might do something similar, Cheat Engine is the one most are familiar with.
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction">
+          <a href="../decompiler/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Decompiler">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1623,20 +1703,20 @@ that might do something similar, Cheat Engine is the one most are familiar with.
                 Previous
               </span>
               <div class="md-ellipsis">
-                Introduction
+                Decompiler
               </div>
             </div>
           </a>
         
         
           
-          <a href="../decompiler/" class="md-footer__link md-footer__link--next" aria-label="Next: Decompiler">
+          <a href="../documentation/" class="md-footer__link md-footer__link--next" aria-label="Next: Documentation">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Decompiler
+                Documentation
               </div>
             </div>
             <div class="md-footer__button md-icon">
