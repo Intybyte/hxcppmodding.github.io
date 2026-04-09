@@ -31,6 +31,30 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://intybyte.github.io/hxcppmodding.github.io/tec2/"/>
     </url>
     <url>
+        <loc>https://intybyte.github.io/hxcppmodding.github.io/tec2/mod/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://intybyte.github.io/hxcppmodding.github.io/tec2/mod/"/>
+    </url>
+    <url>
+        <loc>https://intybyte.github.io/hxcppmodding.github.io/tec2/re/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://intybyte.github.io/hxcppmodding.github.io/tec2/re/"/>
+    </url>
+    <url>
+        <loc>https://intybyte.github.io/hxcppmodding.github.io/tec2/re/identifying-calls/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://intybyte.github.io/hxcppmodding.github.io/tec2/re/identifying-calls/"/>
+    </url>
+    <url>
+        <loc>https://intybyte.github.io/hxcppmodding.github.io/tec2/re/track-functions/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://intybyte.github.io/hxcppmodding.github.io/tec2/re/track-functions/"/>
+    </url>
+    <url>
         <loc>https://intybyte.github.io/hxcppmodding.github.io/tools/</loc>
         <lastmod>2026-04-09</lastmod>
         <changefreq>daily</changefreq>
