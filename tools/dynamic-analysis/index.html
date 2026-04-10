@@ -583,6 +583,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#debugging-a-mod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging a Mod
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1464,6 +1475,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#debugging-a-mod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debugging a Mod
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1559,6 +1581,13 @@
 <li>? rip - ApplicationMain</li>
 </ul>
 <p>There are many more commands you can use, a good 5min search will give you most of the answers.</p>
+<h3 id="debugging-a-mod">Debugging a Mod</h3>
+<p>Let's say you completed everything and you now want to check why your mod crashes. Then you will need to launch WinDbg with the correct path and point it to your launcher.</p>
+<p>You will need to hook to the child process spawned by the launcher, to do so you will need to run these commands after starting to debug:</p>
+<ul>
+<li><code>.childdbg 1</code> : Enables child process debugging</li>
+<li><code>sxe cpr</code> : Break on process creation</li>
+</ul>
 <h2 id="cheat-engine">Cheat Engine</h2>
 <p>A program that allows you track memory changes so that you can find values and pointers more easly that you can later link to your decompiler's output. While I hate the fact that downloading this piece of software has you walk a landmine of adware softwares in the installation process, it is very useful and worth it.</p>
 <h3 id="usage">Usage</h3>
