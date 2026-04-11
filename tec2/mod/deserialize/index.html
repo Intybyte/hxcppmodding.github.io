@@ -1381,7 +1381,8 @@
 <p>First we define <code>isAssetIdFile</code> that just does a string check to see if it has the prefix. Then restore all the volatile functions, as if nothing happened. And then the logic is as explained, our own function that handles the custom files will be called <code>HandleXmlFileSupport</code>.</p>
 <details class="warning">
 <summary>Warning</summary>
-<p>As a cautionary tale, make the functions empty at the beginning, or make them behave the same way they would at the start, just to check if you are hooking properly, if your patch is the correct size and everything you are doing makes sense. After that start to fill up the your functions with the real logic.</p>
+<p>As a cautionary tale, make the functions empty at the beginning, or make them behave the same way they would normally, just to check if you are hooking properly. </p>
+<p>After confirming that your patch is the correct size and everything you are doing makes sense, you can start to fill up the your functions with the real logic.</p>
 </details>
 
 
