@@ -1370,17 +1370,19 @@
 <p>So normally what the deserialize function does is:</p>
 <ul>
 <li>Use the string parameter (I called it <code>stringFile</code>) as a reference where to data from.</li>
-<li>It gets passed to many wrappers of (<code>lime::Assets::getAsset</code>) which then give a String containing the xml contents.</li>
-<li>The haxe std lib processes it.</li>
+<li>It gets passed to many wrappers of <code>lime::Assets::getAsset</code> which then give a String containing the xml contents.</li>
+<li>The haxe class Xml in Std processes it.</li>
 <li>The function extracts the xml attributes and loads it into a custom object (we will call it <code>itemData</code>)</li>
 <li><code>itemData</code> gets added to the <code>GLOBAL_REGISTRY</code> and to an output parameter</li>
 </ul>
 <p>So what we can do is intercept the first wrapper call of <code>lime::Assets::getAsset</code> (I called it <code>getTextAssetObj2StrW</code>), replace it with our own logic that checks if the string start with some prefix normally unused, for instance I am using <code>file@</code>. </p>
 <p>If it doesn't start with the prefix, continue as if nothing happened, just use <code>getTextAssetObj2StrW</code>.</p>
-<p>If it does instead start with <code>file@</code> then whatever comes after is the absolute reference to the XML file we want to deserialize, and our own functions will handle it.</p>
 <p><a href="https://github.com/Intybyte/TEC2AssetAdder/blob/master/TEC2AssetAdder/asm_xml_file_support.asm">Here the ASM File</a></p>
-<p>First we define <code>isAssetIdFile</code> that just does a string check to see if it has the prefix. Then restore all the volatile functions, as if nothing happened. And then the logic is as explained, out own function that handles the custom files will be called <code>HandleXmlFileSupport</code>.</p>
+<p>First we define <code>isAssetIdFile</code> that just does a string check to see if it has the prefix. Then restore all the volatile functions, as if nothing happened. And then the logic is as explained, our own function that handles the custom files will be called <code>HandleXmlFileSupport</code>.</p>
+<details class="warning">
+<summary>Warning</summary>
 <p>As a cautionary tale, make the functions empty at the beginning, or make them behave the same way they would at the start, just to check if you are hooking properly, if your patch is the correct size and everything you are doing makes sense. After that start to fill up the your functions with the real logic.</p>
+</details>
 
 
 

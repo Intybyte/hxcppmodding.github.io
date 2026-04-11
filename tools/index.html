@@ -1483,23 +1483,23 @@
 in order to mod the game properly, because you need to know what you need to fix/change before
 applying any real changes.</p>
 <p>Many of these tools are not exclusive to hxcpp modding as you can infer, however the sections will have some more details regarding this enviroment whenever possible.</p>
-<p>Also to use these tools properly you will need to have a basic understanding of these stuff, you can acquire such knowledge fairly easly with enough dedication and if you already have a good background:</p>
+<p>Also to use these tools properly you will need to have a basic understanding of some concepts, you can acquire such knowledge fairly easly with enough dedication and if you already have a good background:</p>
 <h3 id="c-language">C language</h3>
 <p>Most decompilers will decompile the code to pseudo C, and honestly you are going to mod in C also, because due to architectue padding, you will need to create perfectly aligned structures in
-order to use the game's functions.</p>
+order to use the game's data and pass it around internal functions.</p>
 <h3 id="assembly">Assembly</h3>
 <p>Of course you should not know the entirety of assembly it would be insane, and we could argue for
 hours on how CISC assembly languages are becoming more and more an interpreted language due to the sheer amount of instructions. But you need to know the basics:</p>
 <ul>
-<li>How does the stack works</li>
+<li>How does the stack work</li>
 <li>How to align the stack and work on it</li>
-<li>What are the functions call conventions (depends if target is 32bit or 64bit)</li>
+<li>What are the functions calling conventions (depends if target is 32bit or 64bit)</li>
 <li>How to NOT corrupt the stack</li>
 <li>How to backup and restore registries properly</li>
 <li>Be careful of anything that touches a float or double</li>
 </ul>
 <p>Generally speaking you are only going to use instructions like:
-PUSH, MOV, ADD, POP, SUB, JMP</p>
+PUSH, MOV, ADD, POP, SUB, JMP, CALL</p>
 <p>So it is perfectly fine if you don't know what this is:</p>
 <p><img alt="Assembly" src="../img/tools/assembly.png" /></p>
 <details class="note">

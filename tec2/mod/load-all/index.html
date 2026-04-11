@@ -1379,7 +1379,7 @@
 <p>The offsetId is used to determine the item type of the item </p>
 </details>
 <p>There were some problems when implementing this, because I was trying to use the specific registries for the offsets, but it looks like they are more like temporary static variables, or the GC removed them after the use, I am unsure, but using them crashed the game as it wouldn't find valid vftables entries.</p>
-<p>So I had to use the <code>hx::ArrayBase::__new</code> function to create a temporary array and dump everything there. Anyways the GLOBAL_REGISTRY will register them just fine.</p>
+<p>So I had to use the <code>hx::ArrayBase::__new</code> function to create a temporary array and dump everything there. Anyways the <code>GLOBAL_REGISTRY</code> will register them just fine.</p>
 <p>The game works and here it is a file I used for testing:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
 <span class="normal"><a href="#__codelineno-0-2">2</a></span>
