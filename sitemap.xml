@@ -37,6 +37,18 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://intybyte.github.io/hxcppmodding.github.io/tec2/mod/"/>
     </url>
     <url>
+        <loc>https://intybyte.github.io/hxcppmodding.github.io/tec2/mod/deserialize/</loc>
+        <lastmod>2026-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://intybyte.github.io/hxcppmodding.github.io/tec2/mod/deserialize/"/>
+    </url>
+    <url>
+        <loc>https://intybyte.github.io/hxcppmodding.github.io/tec2/mod/load-all/</loc>
+        <lastmod>2026-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://intybyte.github.io/hxcppmodding.github.io/tec2/mod/load-all/"/>
+    </url>
+    <url>
         <loc>https://intybyte.github.io/hxcppmodding.github.io/tec2/re/</loc>
         <lastmod>2026-04-11</lastmod>
         <changefreq>daily</changefreq>

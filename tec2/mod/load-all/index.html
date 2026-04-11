@@ -12,29 +12,29 @@
         <meta name="author" content="Intybyte">
       
       
-        <link rel="canonical" href="https://intybyte.github.io/hxcppmodding.github.io/">
+        <link rel="canonical" href="https://intybyte.github.io/hxcppmodding.github.io/tec2/mod/load-all/">
       
       
+        <link rel="prev" href="../deserialize/">
       
-        <link rel="next" href="tools/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
     
     
       
-        <title>Introduction - Hxcpp Modding</title>
+        <title>Patch end of load all function - Hxcpp Modding</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="../../../style.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -89,7 +89,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Hxcpp Modding" class="md-header__button md-logo" aria-label="Hxcpp Modding" data-md-component="logo">
+    <a href="../../.." title="Hxcpp Modding" class="md-header__button md-logo" aria-label="Hxcpp Modding" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Patch end of load all function
             
           </span>
         </div>
@@ -146,13 +146,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="." class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
           
   
   
@@ -172,7 +170,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="tools/" class="md-tabs__link">
+        <a href="../../../tools/" class="md-tabs__link">
           
   
   
@@ -192,7 +190,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="tricks/" class="md-tabs__link">
+        <a href="../../../tricks/" class="md-tabs__link">
           
   
   
@@ -212,7 +210,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="mod/launcher-loader/" class="md-tabs__link">
+        <a href="../../../mod/launcher-loader/" class="md-tabs__link">
           
   
   
@@ -228,11 +226,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="tec2/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
           
   
   
@@ -272,7 +272,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Hxcpp Modding" class="md-nav__button md-logo" aria-label="Hxcpp Modding" data-md-component="logo">
+    <a href="../../.." title="Hxcpp Modding" class="md-nav__button md-logo" aria-label="Hxcpp Modding" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -299,29 +299,24 @@
       
   
   
-    
   
   
-  
     
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
             
   
   
@@ -339,7 +334,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -354,17 +349,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -380,7 +368,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -450,7 +437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/" class="md-nav__link">
+      <a href="../../../tools/" class="md-nav__link">
         
   
   
@@ -478,7 +465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/decompiler/" class="md-nav__link">
+      <a href="../../../tools/decompiler/" class="md-nav__link">
         
   
   
@@ -506,7 +493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/dynamic-analysis/" class="md-nav__link">
+      <a href="../../../tools/dynamic-analysis/" class="md-nav__link">
         
   
   
@@ -534,7 +521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/documentation/" class="md-nav__link">
+      <a href="../../../tools/documentation/" class="md-nav__link">
         
   
   
@@ -562,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tools/ai/" class="md-nav__link">
+      <a href="../../../tools/ai/" class="md-nav__link">
         
   
   
@@ -647,7 +634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tricks/" class="md-nav__link">
+      <a href="../../../tricks/" class="md-nav__link">
         
   
   
@@ -675,7 +662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tricks/string-constants/" class="md-nav__link">
+      <a href="../../../tricks/string-constants/" class="md-nav__link">
         
   
   
@@ -703,7 +690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tricks/bottom-up/" class="md-nav__link">
+      <a href="../../../tricks/bottom-up/" class="md-nav__link">
         
   
   
@@ -731,7 +718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tricks/proper-namespacing/" class="md-nav__link">
+      <a href="../../../tricks/proper-namespacing/" class="md-nav__link">
         
   
   
@@ -759,7 +746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tricks/locate-boot-all/" class="md-nav__link">
+      <a href="../../../tricks/locate-boot-all/" class="md-nav__link">
         
   
   
@@ -787,7 +774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tricks/blinkers/" class="md-nav__link">
+      <a href="../../../tricks/blinkers/" class="md-nav__link">
         
   
   
@@ -872,7 +859,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mod/launcher-loader/" class="md-nav__link">
+      <a href="../../../mod/launcher-loader/" class="md-nav__link">
         
   
   
@@ -900,7 +887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mod/assembly-ph/" class="md-nav__link">
+      <a href="../../../mod/assembly-ph/" class="md-nav__link">
         
   
   
@@ -928,7 +915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mod/expectations/" class="md-nav__link">
+      <a href="../../../mod/expectations/" class="md-nav__link">
         
   
   
@@ -960,24 +947,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   
@@ -995,7 +987,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1013,7 +1005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tec2/" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   
@@ -1091,7 +1083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tec2/re/" class="md-nav__link">
+      <a href="../../re/" class="md-nav__link">
         
   
   
@@ -1119,7 +1111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tec2/re/track-functions/" class="md-nav__link">
+      <a href="../../re/track-functions/" class="md-nav__link">
         
   
   
@@ -1147,7 +1139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tec2/re/identifying-calls/" class="md-nav__link">
+      <a href="../../re/identifying-calls/" class="md-nav__link">
         
   
   
@@ -1180,6 +1172,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1190,11 +1184,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" checked>
         
           
           <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
@@ -1215,7 +1209,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1233,7 +1227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tec2/mod/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1261,7 +1255,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tec2/mod/deserialize/" class="md-nav__link">
+      <a href="../deserialize/" class="md-nav__link">
         
   
   
@@ -1286,10 +1280,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="tec2/mod/load-all/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1305,6 +1306,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1361,14 +1363,33 @@
   
 
 
-  <h1>Introduction</h1>
+  <h1>Patch end of load all function</h1>
 
-<p>Haxe is a multiplatform programming language that can compile to many different targets. While this makes it incredibly versatile, it also makes modding Haxe games more challenging. </p>
-<p>To create mods, you often need to work with multiple targets at once, which can require understanding several different platforms, different implementation of the haxe language, and different reverse engineering techniques.</p>
-<p>For simplification, this guide focuses on Hxcpp games, even more in the specific, those compiled with Windows, but it can be applied to Linux also, with some minor changes that is.</p>
-<p>One of the main challenge is that now, together with having to figure out what sheneningas C++ is pulling with duplicating functions across the code, inlining, virtual table magic, you now also have to deal with Hxcpp converting Haxe code to cpp.</p>
-<p>But it can also become and advantage knowing the general structure on how hxcpp transpiles to C++, because we can more easily detect some methods... it doesn't help however that Haxe has inline functions that make everything more messy to read, but once you track them down and categorize them with extreme prejudice, reading the decompiled code gets easier.</p>
-<p>This guide provides tools, techniques, and using a game as an example <a href="https://store.steampowered.com/app/368610/The_Enchanted_Cave_2/">The Enchanted Cave 2</a> as a reference.</p>
+<p>Ok now the base deserialize function supports file, all that is left is passing these files in the format we just defined.</p>
+<p><a href="https://github.com/Intybyte/TEC2AssetAdder/blob/master/TEC2AssetAdder/asm_xml_file_load.asm">The ASM file</a></p>
+<p>The assembly hook is way simpler in this case, we are not using many references from our C code, and we are just making a call with no arguments, no return values, no nothing.</p>
+<p>The LoadAllAssets:</p>
+<ul>
+<li>Gets every file with the <code>.xml</code> extension</li>
+<li>The file names should be a number, which will be the <code>offsetId</code> of the fucntion</li>
+<li>Passes to the original function (which is now patched) <code>file@&lt;path&gt;</code></li>
+</ul>
+<details class="note">
+<summary>Note</summary>
+<p>The offsetId is used to determine the item type of the item </p>
+</details>
+<p>There were some problems when implementing this, because I was trying to use the specific registries for the offsets, but it looks like they are more like temporary static variables, or the GC removed them after the use, I am unsure, but using them crashed the game as it wouldn't find valid vftables entries.</p>
+<p>So I had to use the <code>hx::ArrayBase::__new</code> function to create a temporary array and dump everything there. Anyways the GLOBAL_REGISTRY will register them just fine.</p>
+<p>The game works and here it is a file I used for testing:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nt">&lt;data&gt;</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="nt">&lt;item</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">picID=</span><span class="s">&quot;0&quot;</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;Chunk of Vaanium&quot;</span><span class="w"> </span><span class="na">value=</span><span class="s">&quot;40&quot;</span><span class="w"> </span><span class="na">min=</span><span class="s">&quot;0&quot;</span><span class="w"> </span><span class="na">max=</span><span class="s">&quot;90&quot;</span><span class="w"> </span><span class="na">e1=</span><span class="s">&quot;exp&quot;</span><span class="w"> </span><span class="na">e1power=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">e2=</span><span class="s">&quot;defFire&quot;</span><span class="w"> </span><span class="na">e2power=</span><span class="s">&quot;3&quot;</span><span class="w"> </span><span class="na">desc=</span><span class="s">&quot;Fossilized suffering&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="nt">&lt;/data&gt;</span>
+</code></pre></div></td></tr></table></div>
+<p>It is based on the <code>Chunk of Amber</code> item, it is basically the same but the floor spawn range is bigger.</p>
 
 
 
@@ -1399,22 +1420,22 @@
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
-        
           
-          <a href="tools/" class="md-footer__link md-footer__link--next" aria-label="Next: Introduction">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Introduction
-              </div>
-            </div>
+          <a href="../deserialize/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Patch deserialize function">
             <div class="md-footer__button md-icon">
               
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Patch deserialize function
+              </div>
             </div>
           </a>
+        
         
       </nav>
     
@@ -1444,12 +1465,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "content.tabs.link"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="js/open_in_new_tab.js"></script>
+        <script src="../../../js/open_in_new_tab.js"></script>
       
     
   </body>

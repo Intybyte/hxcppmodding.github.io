@@ -18,6 +18,8 @@
         <link rel="prev" href="../re/identifying-calls/">
       
       
+        <link rel="next" href="deserialize/">
+      
       
         
       
@@ -1263,14 +1265,14 @@
   
   
     <li class="md-nav__item">
-      <a href="loading.md" class="md-nav__link">
+      <a href="deserialize/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Patch loading function
+    Patch deserialize function
   
 
     
@@ -1291,7 +1293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="load-all.md" class="md-nav__link">
+      <a href="load-all/" class="md-nav__link">
         
   
   
@@ -1376,7 +1378,9 @@
 <p>A: Slighly before the end of the <code>tec2::Deserialize::allItemDefinitions</code> function, because I don't understand what is going on at the very end.</p>
 <p><img alt="Hooking preview" src="../../img/tec2/mod/hooking_preview.png" /></p>
 <p>We are going to add items from a XML file format, the files will be located in <code>/Mods/Assets/*.xml</code>.</p>
-<p>Let's get started!</p>
+<p>You can find the complete source code at <a href="https://github.com/Intybyte/TEC2AssetAdder">TEC2AssetAdder</a>.</p>
+<p>Keep in mind you will have to do a lot of trial and errors sometimes, you won't mod anything in a day. While writing these sections it took me a lot to not mess up some calls in Assembly, so don't feel too discouraged, it is the way it is.</p>
+<p>Now that everything has been said, let's get started!</p>
 
 
 
@@ -1423,6 +1427,22 @@
             </div>
           </a>
         
+        
+          
+          <a href="deserialize/" class="md-footer__link md-footer__link--next" aria-label="Next: Patch deserialize function">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Patch deserialize function
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
