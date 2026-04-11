@@ -1265,14 +1265,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mod/assembly-ph.md" class="md-nav__link">
+      <a href="../../mod/loading.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Overriding logic
+    Patch loading function
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mod/load-all.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patch end of load all function
   
 
     
@@ -1347,7 +1375,7 @@
 <p><code>FUN_140489260 --&gt; void tec2::Deserialize::itemDefinitions(void)</code></p>
 <p>There seems also to be chinese language support, and the parameters name are derived from the way the function is called.</p>
 <p><img alt="Item Definition" src="../../../img/tec2/re/item_definitions.png" /></p>
-<p>I made a <code>type_info</code> struct with a total size of 32bits, named type, but after some analysis I believe that it is just a <code>uint32_t</code> length field, and Ghidra or hxcpp compiler are just adding unnecessary stuff to make it more complex than it actually is, but I am keeping it like this for now. </p>
+<p>I made a <code>type_info</code> struct with a total size of 32bits, named type, but after some analysis I believe that it is just a <code>uint32_t</code> length field, and Ghidra or hxcpp compiler are just adding unnecessary stuff to make it more complex than it actually is, but I am keeping it like this for now.</p>
 
 
 
